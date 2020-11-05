@@ -1,0 +1,93 @@
+body {
+    background-color: wheat;
+}
+
+#Yesyes{
+    padding-left: 72%;
+    padding-bottom: 50%;
+    float: left;
+}
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 3px solid;
+    border-bottom: transparent;
+}
+
+.button1 {
+    background-color: #a6a6a6;
+    color: black;
+    border: 2px solid #f9f9eb;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.button1:hover {
+    color:whitesmoke;
+}
+
+.button2 {
+    background-color: #a6a6a6;
+    color: black;
+    padding: 25px 30px;
+    border: 2px solid #f9f9eb;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 12px;
+    margin: 10px;
+}
+.button2:hover {
+    color:whitesmoke;
+}
+
+.button3 {
+    background-color: #a6a6a6;
+    color: black;
+    border: 2px solid #f9f9eb;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 10px;
+}
+.button3:hover {
+    color:whitesmoke;
+}
+
+.button4 {
+    background-color: #a6a6a6;
+    color: black;
+    border: 2px solid #f9f9eb;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 10px;
+}
+.button4:hover {
+    color:whitesmoke;
+}
+
+d
+
+div.a {
+    padding-top: 50px ;
+}
+
+.about {
+    background-color:#a6a6a6;
+    border: 3px solid;
+
+}
+
+.bild {
+    padding-left: 70%;
+    padding-bottom: 70%;
+    float: left;
+}
