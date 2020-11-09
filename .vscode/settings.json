@@ -1,6 +1,10 @@
 {
     "python.dataScience.jupyterServerURI": "local",
+<<<<<<< HEAD
     "python.pythonPath": "/usr/bin/python3",
+=======
+    "python.pythonPath": "C:\\Users\\Linus\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+>>>>>>> fc961602204ea369366b7f8fb425abf30ca2c2a2
     "python.testing.pytestArgs": [
         "Programmering"
     ],
