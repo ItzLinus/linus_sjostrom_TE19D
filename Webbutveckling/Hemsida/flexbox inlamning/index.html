@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script>
+            window.onload = function() {
+              var context = new AudioContext();
+            }
+</script>
+            
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>My Shop</title>
@@ -24,9 +30,13 @@
             <a class="cart" href="image/shopping-cart (1).svg"><button>Cart</button></a>
         </div>
         </header>
-
+        <audio id="player" src="music.mp3"></audio>
+        <div> 
+                <a><button onclick="document.getElementById('player').play()">Play</button> </a>
+            </div>
+    </audio>
 <!--Under detta är alla prudukter placerade under item class-->
-<h2>Produkter</h2>    
+<h2>Produkter</h2>  
 <div class="container">
         <div class="item">
             <img src="image/plant.jpg" alt="Grön Planta" width="280" height="420">
@@ -64,5 +74,6 @@
     <footer>
         <p>Made by Linus</p>
         <p>Mail me: <a href="mailto:zsofia.nemethy@ntig.se"> linusrosvall03@gmail.com</a> </p>
+                
     </footer>
 </html>
