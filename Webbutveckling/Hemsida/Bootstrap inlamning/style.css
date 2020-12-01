@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*Detta är css för färgen för sidan*/
+body {
+    background-color: #24252A;
+}
+
+
+/*Allt under detta är css för navbar*/
+
+li,a,button {
+    font-family: "Opensans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 2%;
+    border-bottom: 4px solid #312d2d;
+}
+
+.knapp {
+    justify-content: space-between;
+    align-items: right;
+    margin-left: 30px;
+}
+
+#player {
+    align-items: right;
+    justify-content: end;
+    justify-items: right;
+    position: absolute;
+}
+
+.cart {
+    background: url(https://www.flaticon.com/svg/static/icons/svg/609/609496.svg);
+}
+
+.logo {
+    cursor: pointer;
+    width: 150px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.8s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: cadetblue;
+}
+
+/*Dessa är kod för buttons för både navbar och "Add to Cart"*/
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.6);
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(0, 136, 169, 0.6);
+}
+
+/*Css För produkterna*/
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .item {
+    width: 100%;
+    flex-grow: initial;
+    padding-bottom: 0.8%; 
+    padding-top: 0.8%;
+    margin-bottom: 2%;
+    max-width: 300px;
+    margin:10px;
+    text-align: center;
+    font-family: arial;
+    background-color:#74744ee5;
+    border-radius: 2mm;
+    
+  }
+
+  .item button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:rgba(0, 136, 169, 1);
+    text-align: center;
+    cursor: pointer;
+    width: 80%;
+    font-size: 18px;
+  }
+  .item button:hover {
+    background-color: rgba(0, 136, 169, 0.6);
+  }
+
+  /*Css för varje produkt ruta*/
+
+h1 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+  .pris {
+    color: #ffff00b0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/*Footer css*/
+
+footer {
+    margin-top: 210px;
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
+
+p {
+    font-size: 19px;
+}
+
+    
