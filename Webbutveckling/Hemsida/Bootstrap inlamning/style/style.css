@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
-    box-sizing: border-box;
+    box-sizing: brgba(0, 136, 169, 1)order-box;
     margin: 0;
     padding: 0;
 }
@@ -29,28 +29,6 @@ header {
     border-bottom: 4px solid #312d2d;
 }
 
-.knapp {
-    justify-content: space-between;
-    align-items: right;
-    margin-left: 30px;
-}
-
-#player {
-    align-items: right;
-    justify-content: end;
-    justify-items: right;
-    position: absolute;
-}
-
-.cart {
-    background: url(https://www.flaticon.com/svg/static/icons/svg/609/609496.svg);
-}
-
-.logo {
-    cursor: pointer;
-    width: 150px;
-}
-
 .nav_links {
     list-style: none;
 }
@@ -65,7 +43,7 @@ header {
 }
 
 .nav_links li a:hover {
-    color: cadetblue;
+    color:rgba(0, 136, 169, 1);
 }
 
 /*Dessa är kod för buttons för både navbar och "Add to Cart"*/
@@ -92,27 +70,6 @@ h2 {
 
 /*Css För produkterna*/
 
-.container {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .item {
-    width: 100%;
-    flex-grow: initial;
-    padding-bottom: 0.8%; 
-    padding-top: 0.8%;
-    margin-bottom: 2%;
-    max-width: 300px;
-    margin:10px;
-    text-align: center;
-    font-family: arial;
-    background-color:#74744ee5;
-    border-radius: 2mm;
-    
-  }
 
   .item button {
     border: none;
@@ -129,18 +86,6 @@ h2 {
     background-color: rgba(0, 136, 169, 0.6);
   }
 
-  /*Css för varje produkt ruta*/
-
-h1 {
-    font-size: 26px;
-    font-weight: 600;
-}
-
-  .pris {
-    color: #ffff00b0;
-    font-size: 26px;
-    font-weight: bold;
-}
 
 /*Footer css*/
 

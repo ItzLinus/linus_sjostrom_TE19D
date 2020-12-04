@@ -76,11 +76,21 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+li {
+  text-decoration: none;
+
 }
 
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: white;
+  text-align: center;
 }
 
 abbr[title],
@@ -160,7 +170,7 @@ a {
 
 a:hover {
   color: #0056b3;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]):not([class]) {
@@ -229,8 +239,7 @@ button {
 }
 
 button:hover {
-  outline: 10px solid;
-  outline: 10px auto -webkit-focus-ring-color;
+
 }
 
 input,
