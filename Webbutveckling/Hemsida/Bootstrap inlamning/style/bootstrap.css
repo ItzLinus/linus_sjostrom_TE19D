@@ -74,8 +74,6 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
   color: white;
   justify-content: center;
   text-align: center;
@@ -560,6 +558,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 20px;
 }
 
 @media (min-width: 576px) {

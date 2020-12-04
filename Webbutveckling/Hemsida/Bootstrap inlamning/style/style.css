@@ -46,7 +46,7 @@ header {
     color:rgba(0, 136, 169, 1);
 }
 
-/*Dessa är kod för buttons för både navbar och "Add to Cart"*/
+/*Dessa är kod för buttons för navbar*/
 
 button {
     padding: 9px 25px;
@@ -61,6 +61,16 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.6);
 }
 
+h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 8px;
+    transition: all 0.3s ease 0s;
+}
+
+
 h2 {
     font-size: 40px;
     margin-top: 20px;
@@ -68,28 +78,11 @@ h2 {
     color: rgba(0, 136, 169, 0.6);
 }
 
-/*Css För produkterna*/
-
-
-  .item button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color:rgba(0, 136, 169, 1);
-    text-align: center;
-    cursor: pointer;
-    width: 80%;
-    font-size: 18px;
-  }
-  .item button:hover {
-    background-color: rgba(0, 136, 169, 0.6);
-  }
-
 
 /*Footer css*/
 
 footer {
+    border-top: 4px solid #312d2d;
     margin-top: 210px;
     text-align: center;
     padding: 3px;
@@ -98,6 +91,7 @@ footer {
 
 p {
     font-size: 19px;
+    margin-top: 10px;
 }
 
     
