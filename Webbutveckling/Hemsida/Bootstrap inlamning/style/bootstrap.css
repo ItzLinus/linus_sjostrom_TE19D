@@ -236,10 +236,6 @@ button {
   border-radius: 0;
 }
 
-button:hover {
-
-}
-
 input,
 button,
 select,
@@ -558,7 +554,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 @media (min-width: 576px) {

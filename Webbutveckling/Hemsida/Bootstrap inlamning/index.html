@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script>
-            window.onload = function() {
-              var context = new AudioContext();
-            }
-</script>
-            
+        <script src="jquery-3.5.1.min.js"></script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Website</title>
@@ -14,94 +9,136 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style/bootstrap.css">
         <link rel="stylesheet" href="style/style.css">
+
+        <script
+  src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
     </head>
 <body>
     <!-- Här under finns all kod för navbar på hemsidan-->
     <header>
         <nav>
             <ul class="nav_links">
-                <li><a href="#">Element</a></li>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">ID</a></li>
-                <li><a href="#">Class</a></li>
-                <li><a href="#">Meta</a></li>
-                <li><a href="#">Responsive</a></li>
-                <li><a href="#">http</a></li>
-                <li><a href="#">https</a></li>
-                <li><a href="#">compressed data</a></li>
-                <li><a href="#">CDN</a></li>
-                <li><a href="#">local bootstrap</a></li>
-                <li><a href="#">JQuery</a></li>
-                <li><a href="#">Flexbox</a></li>
-                <li><a href="#">Grid</a></li>
-                <li><a href="#">Code snippets</a></li>
-
+                <li><a href="#element">Element</a></li>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#id">ID</a></li>
+                <li><a href="#class">Class</a></li>
+                <li><a href="#meta">Meta</a></li>
+                <li><a href="#responsive">Responsive</a></li>
+                <li><a href="#http">http</a></li>
+                <li><a href="#https">https</a></li>
+                <li><a href="#compressed_data">compressed data</a></li>
+                <li><a href="#cdn">CDN</a></li>
+                <li><a href="#local_bootstrap">local bootstrap</a></li>
+                <li><a href="#jquery">JQuery</a></li>
+                <li><a href="#flexbox">Flexbox</a></li>
+                <li><a href="#grid">Grid</a></li>
+                <li><a href="#code_snippets">Code snippets</a></li>
+                <div class="knapp">
+                    <a class="knapp" href="#"><button>About</button></a>
+                    <a class="knapp" href="#footer"><button>Contact</button></a>
+                </div>
             </ul>
         </nav>
-    <div class="knapp">
-        <a class="knapp" href="#"><button>Contact Us</button></a>
-        <a class="cart" href="image/shopping-cart (1).svg"><button>Cart</button></a>
-    </div>
-</header>
-<div class=container>
-    <h1> Element</h1>
-        <p>An HTML element is defined by a start tag, some content, and an end tag.
-            Examples are h1 My First Heading /h1
-        </p>  
     
+</header>
 
-    <h1>HTML</h1>
+<!-- HÄR FINNS HEMSIDANS INNEHÅLL -->
+
+<div class=main>
+
+            <a id="element"></a>
+
+    <h1> Element</h1>
+        <p>
+        Elements are like keywords that tells the browser how to format text and apperence on the website.
+        Example
+        </p>
+
+            <a id="html"></a>
+
+    <a id="html"><h1>HTML</h1></a>
         <p></p>
 
+            <a id="id"></a>
+    
     <h1>ID</h1>  
-        <p>HFjasgneq nw lsmafna</p>
+        <p></p>
+
+            <a id="class"></a>
 
     <h1>Class</h1>  
-        <p>HFjasgneq nw lsmafna</p>
+        <p></p>
+
+            <a id="meta"></a>
 
     <h1>Meta</h1>  
-        <p>HFjasgneq nw lsmafna</p>
+        <p></p>
 
+            <a id="responsive"></a>
+   
     <h1>Responsive</h1>  
-        <p>HFjasgneq nw lsmafna</p>
-    
-    <h1> Hallo</h1>  
-        <p>HFjasgneq nw lsmafna</p>
+        <p></p>
 
-    <h1> http</h1>  
-        <p>HFjasgneq nw lsmafna</p>
+            <a id="http"></a>
+
+    <h1>http</h1>  
+        <p></p>
+
+            <a id="https"></a>
 
     <h1>https</h1>  
-        <p>HFjasgneq nw lsmafna</p>
+        <p></p>
+
+            <a id="compressed_data"></a>
 
     <h1>compressed data</h1>  
-        <p>HFjasgneq nw lsmafna</p>
+        <p></p>
+
+            <a id="cdn"></a>
 
     <h1>CDN</h1>  
-        <p>HFjasgneq nw lsmafna</p>
-    
+        <p></p>
+
+            <a id="local_bootstrap"></a>
+
     <h1>local bootstrap</h1>  
-        <p>HFjasgneq nw lsmafna</p>
+        <p></p>
+
+            <a id="jquery"></a>
     
     <h1>JQuery</h1>  
-        <p>HFjasgneq nw lsmafna</p>
-    
+        <p></p>
+
+            <a id="flexbox"></a>
+
     <h1>Flexbox</h1>  
-        <p>HFjasgneq nw lsmafna</p>
+        <p></p>
+
+            <a id="grid"></a>
     
     <h1>Grid</h1>  
-        <p>HFjasgneq nw lsmafna</p>
-    
+        <p></p>
+
+            <a id="code_snippets"></a>
+
     <h1>Code snippets</h1>  
-        <p>HFjasgneq nw lsmafna</p>
+        <p></p>
+
 </div>
 
 
-    </body>
+<a class="top-link hide" href="" id="js-top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></svg>
+    <span class="screen-reader-text">&#10148;</span>
+  </a>
+    
     <!--Under denna finns hemsidans footer-->
     <footer>
+        <script type="text/javascript" src="style/script.js"></script>
         <p>Made by Linus</p>
         <p>Mail me: <a href="mailto:zsofia.nemethy@ntig.se"> linusrosvall03@gmail.com</a> </p>
                 
     </footer>
+</body>
 </html>
