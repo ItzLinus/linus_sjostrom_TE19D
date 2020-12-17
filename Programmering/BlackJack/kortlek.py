@@ -2,6 +2,7 @@ import random as rd
 # lista för att hålla våra kort
 def skapaKortlek():
     kortNummer = [i for i in range(2,11)]
+    
     # klädda kort
     klädkort = ["J","Q","K","A"]
     kortNummer += klädkort
