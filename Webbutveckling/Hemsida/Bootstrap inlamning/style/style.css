@@ -71,7 +71,7 @@ button:hover {
     padding: 16px;
     margin-top: 20px;
     overflow: hidden;
-    height: 2800px;
+    height: 5700px;
 }
 
 h1 {
@@ -88,6 +88,13 @@ h1 span {
     margin-top: -300px;        /* Size of fixed header */
     padding-bottom: 300px; 
     display: block; 
+}
+
+.picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 h2 {
