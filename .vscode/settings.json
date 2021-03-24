@@ -1,3 +1,7 @@
 {
-    "python.pythonPath": "/bin/python3"
+    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe",
+    "discord.largeImage": "Editing a {lang} file",
+    "discord.lowerDetailsIdling": "What?",
+    "discord.largeImageIdling": "What?",
+    "VSCord.lowerDetailsIdle": "?"
 }
