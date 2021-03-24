@@ -1,7 +1,7 @@
 import PySimpleGUI as sg
 
 def start_gui():                                                                # Deklarerar vi funktionen
-    sg.ChangeLookAndFeel('Black')                                           # Tema sätts
+    sg.ChangeLookAndFeel('Black')                                               # Tema sätts
     sg.SetOptions(text_justification='right')                                   # Texten placeras till höger
     layout = [[sg.Text('Tillämpad programmering', font=('Helvetica', 35))],     # layout, Vi jobbar med listor. Efter detta sätter vi font size.
              [sg.Input(key='-IN-')],                                            # 
